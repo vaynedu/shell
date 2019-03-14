@@ -1,0 +1,18 @@
+yum -y install tmux
+
+#command
+tmux new -s session1           创建新的域
+tmux ls                        当前终端有多少个域
+tmux attach -t session1        切换不同的域
+tmux kill-session  -t session1 杀掉指定的域
+ctrl b + , 重新命令窗口
+ctrl b + c 在该域下新增一个窗口
+ctrl b + 0 切换0窗口
+ctrl b + n 切换下一个窗口
+ctrl b + p 切换上一个窗口
+ctrl b + % 拆分竖着窗口
+ctrl b +  shfit " 拆分横着窗口
+ctrl b + o 切换到最近的下一个窗口
+ctrl b + 方向键 切换窗口
+exit  退出当前的窗口
+ctrl b + ?  查看所有命令
