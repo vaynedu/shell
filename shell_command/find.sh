@@ -36,3 +36,6 @@ grep -rn "bu_conf_*.conf" bu/
 
 
 
+#search file
+find . -type f -name "2019_03_17_[0-9][0-9]_[0-9][0-9].txt"
+
