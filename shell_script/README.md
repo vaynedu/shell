@@ -31,3 +31,7 @@
 ## 9. stat_log_file_info.sh
 >>统计文件大小及其行数
 
+## 10. shell_compare_bug.sh
+>>shell在[]比较的时候，不要用> ，这个shell的一个命令，清空或者创建文件
+>>[stack overflow](https://stackoverflow.com/questions/18668556/comparing-numbers-in-bash)
+
