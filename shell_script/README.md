@@ -28,10 +28,10 @@
 ## 8. mutil_thread_model.sh
 >>shell多进程模板
 
-## 9. stat_log_file_info.sh
+## [9. stat_log_file_info.sh](https://github.com/lotluck/shell/blob/master/shell_script/stat_log_file_info.sh)
 >>统计文件大小及其行数
 
-## 10. shell_compare_bug.sh
->>shell在[]比较的时候，不要用> ，这个shell的一个命令，清空或者创建文件
->>[stack overflow](https://stackoverflow.com/questions/18668556/comparing-numbers-in-bash)
+## [10. shell_compare_bug.sh](https://github.com/lotluck/shell/blob/master/shell_script/shell_compare_bug.sh)
+>>shell在[]比较的时候，不要用> ，这个shell的一个命令，清空或者创建文件<br>
+>>[stack overflow Comparing numbers in Bash](https://stackoverflow.com/questions/18668556/comparing-numbers-in-bash)
 
