@@ -1,34 +1,29 @@
 #! /bin/bash
 
-#自动生成该目录文件名称
-
-declare -A  map=([1]="一、" [2]="二、" [3]="三、" [4]="四、" [5]="五、"
-                 [6]="六、" [7]="七、" [8]="八、" [9]="九、" [10]="十、")
-
+#自动生成该目录下的文件信息
 >./README.md
-echo -e "\n\nwelcome to file lists" >> ./README.md
+echo -e "\n\n常用shell脚本" >> ./README.md
 echo "====" >> ./README.md
 echo -e "auto_update and last_modify: `date "+%Y-%m-%d %H:%M:%S"`" >> ./README.md
 echo "-------" >> ./README.md
 
-dir_list=`ls -l | grep '^d' | awk '{print $9}'`
 
-idx=1
 cnt=1
-for dir in $dir_list
-do  
-    echo "## ${map[$idx]}$dir<br>" >> ./README.md
 
-    file_list=`ls -l  $dir | awk '{print $9}'`
-    for file in $file_list
-    do
-          echo ">> ####    $cnt.$file" >> ./README.md
-          let cnt++
-    done
-
-    echo -e "\n\n\n"  >> ./README.md
-
-    let idx++
-    let cnt=1
+file_list=`ls -l | awk '{print $9}'`
+for file in $file_list
+do
+      [ "$file"x == "README.md"x ]      && continue
+      [ "$file"x == "ChangeLog.txt"x ]  && continue
+               
+      echo "## [$cnt.$file](https://github.com/lotluck/shell/blob/master/shell_script/$file)" >> ./README.md         
+      if [ -d "$file" ]
+      then
+         echo ">> 目录文件请在里面查看" >> ./README.md
+      else
+         echo ">> `sed -n '3p' $file | awk -F '#' '{print $2}'`" >> ./README.md
+      fi
+      let cnt++
 done
 
+echo -e "\n\n\n"  >> ./README.md
