@@ -1,3 +1,9 @@
+
+
+#tmux 终端复用神器, 常用操作命令
+
+
+#install
 yum -y install tmux
 
 #command
