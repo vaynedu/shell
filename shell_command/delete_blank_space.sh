@@ -1,5 +1,6 @@
 #! /bin/bash
 
+#删除空格
 >testfile.txt
 file_name=testfile.txt
 

@@ -1,5 +1,7 @@
 #! /bin/bash
 
+#find常用命令
+
 #only show dirs
 
 find -type d 

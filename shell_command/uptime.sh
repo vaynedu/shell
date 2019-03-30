@@ -1,6 +1,6 @@
 #! /bin/bash
 
-
+#uptime各个字段介绍
 uptime
 #12:08:52 up 244 days, 15 min,  1 user,  load average: 0.20, 0.09, 0.06
 

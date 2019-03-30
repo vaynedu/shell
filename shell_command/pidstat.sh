@@ -1,7 +1,7 @@
 #! /bin/bash
 
+#pistat 统计进程内存、cpu、磁盘相关信息
 pidstat
-
 
 # -p 参数指定某个进程
 # -l 让运行的命令完整显示

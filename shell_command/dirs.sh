@@ -1,6 +1,6 @@
 #! /bin/bash
 
-
+#当在linux频繁切换目录的时候，可以用此dirs、pushd、popd命令
 dirs -v
 #0  /data1/shell/shell_command
 
