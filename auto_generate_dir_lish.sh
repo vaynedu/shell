@@ -14,7 +14,7 @@ dir_list=`ls -l | grep '^d' | awk '{print $9}'`
 
 idx=1
 cnt=1
-blank="&emsp;"
+blank="&ensp;"
 
 for dir in $dir_list
 do  
@@ -29,8 +29,8 @@ do
          
           file_name=$cnt.$file
           file_name_len=`echo "$cnt.$file" | wc -L`
-          space_num=`expr 50 - $file_name_len`
-          spaces=$(seq -s '&emsp;' $space_num | sed "s/[0-9]//g")
+          space_num=`expr 30 - $file_name_len`
+          spaces=$(seq -s '&ensp;' $space_num | sed "s/[0-9]//g")
           
                          
           if [ -d "$dir/$file" ]
