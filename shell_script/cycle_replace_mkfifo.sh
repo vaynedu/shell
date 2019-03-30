@@ -1,5 +1,6 @@
 #! /bin/bash
 
+#利用循环代替shell多进程，其实原理很简单
 idx=0
 
 while true

@@ -1,5 +1,6 @@
 # /bin/bash 
 
+#shell 脚本常用数学加减乘数计算， awk、expr、python
 #shell calculate
 
 int_a=50

@@ -1,5 +1,7 @@
 #! /bin/bash
 
+#多进程统计文件行数（当文件比较大的时候，IO会成为瓶颈）
+
 THREADNUM=16
 
 TMPFIFO=/tmp/$$.fifo

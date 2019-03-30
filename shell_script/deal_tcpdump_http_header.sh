@@ -1,5 +1,6 @@
 #! /bin/bash
 
+#利用tcpdump抓取http报文头部
 s_512=0
 s_512_1k=0
 s_1k_2k=0
