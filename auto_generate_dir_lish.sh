@@ -29,7 +29,7 @@ do
          
           file_name=$cnt.$file
           file_name_len=`echo "$cnt.$file" | wc -L`
-          space_num=`expr 30 - $file_name_len`
+          space_num=`expr 35 - $file_name_len`
           spaces=$(seq -s '&ensp;' $space_num | sed "s/[0-9]//g")
           
                          
