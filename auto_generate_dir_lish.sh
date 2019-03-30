@@ -14,6 +14,8 @@ dir_list=`ls -l | grep '^d' | awk '{print $9}'`
 
 idx=1
 cnt=1
+blank="&emsp;"
+
 for dir in $dir_list
 do  
     echo "## [${map[$idx]}$dir](https://github.com/lotluck/shell/tree/master/$dir)<br>" >> ./README.md
@@ -23,12 +25,19 @@ do
     do
           [ "$file"x == "README.md"x ]      && continue
           [ "$file"x == "ChangeLog.txt"x ]  && continue
-                            
+          
+         
+          file_name=$cnt.$file
+          file_name_len=`echo "$cnt.$file" | wc -L`
+          space_num=`expr 50 - $file_name_len`
+          spaces=$(seq -s '&emsp;' $space_num | sed "s/[0-9]//g")
+          
+                         
           if [ -d "$dir/$file" ]
           then
-             echo ">> ####    $cnt.$file" >> ./README.md
+             echo ">> ####    $file_name$spaces 这是一个目录文件" >> ./README.md
           else
-             echo ">> ####    $cnt.$file  &emsp;&emsp;&emsp;&emsp;    `sed -n '3p' $dir/$file | awk -F '#' '{print $2}'`" >> ./README.md
+             echo ">> ####    $file_name$spaces   `sed -n '3p' $dir/$file | awk -F '#' '{print $2}'`" >> ./README.md
           fi
           let cnt++
     done

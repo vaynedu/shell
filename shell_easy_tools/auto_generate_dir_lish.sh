@@ -16,7 +16,7 @@ do
       [ "$file"x == "README.md"x ]      && continue
       [ "$file"x == "ChangeLog.txt"x ]  && continue
                
-      echo "## [$cnt.$file](https://github.com/lotluck/shell/blob/master/shell_command/$file)" >> ./README.md         
+      echo "## [$cnt.$file](https://github.com/lotluck/shell/blob/master/shell_easy_tools/$file)" >> ./README.md         
       if [ -d "$file" ]
       then
          echo ">> 目录文件请在里面查看" >> ./README.md
