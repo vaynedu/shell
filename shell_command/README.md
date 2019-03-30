@@ -2,7 +2,7 @@
 
 常用shell命令
 ====
-auto_update and last_modify: 2019-03-30 21:38:50
+auto_update and last_modify: 2019-03-30 21:47:51
 -------
 ## [1.auto_generate_dir_lish.sh](https://github.com/lotluck/shell/blob/master/shell_command/auto_generate_dir_lish.sh)
 >> 自动生成该目录下的文件信息
@@ -30,3 +30,7 @@ auto_update and last_modify: 2019-03-30 21:38:50
 >> vim 常用技巧，长期更新
 ## [13.vmstat.sh](https://github.com/lotluck/shell/blob/master/shell_command/vmstat.sh)
 >> vmstat报告关于进程、内存、I/O等系统整体运行状态
+
+
+
+
