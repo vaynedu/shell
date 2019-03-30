@@ -2,7 +2,7 @@
 
 welcome to file lists
 ====
-auto_update and last_modify: 2019-03-30 21:51:53
+auto_update and last_modify: 2019-03-30 22:01:26
 -------
 ## [一、shell_command](https://github.com/lotluck/shell/tree/master/shell_command)<br>
 >> ####    1.auto_generate_dir_lish.sh  &emsp;&emsp;&emsp;&emsp;    自动生成该目录下的文件信息
@@ -23,9 +23,10 @@ auto_update and last_modify: 2019-03-30 21:51:53
 
 
 ## [二、shell_easy_tools](https://github.com/lotluck/shell/tree/master/shell_easy_tools)<br>
->> ####    1.shell_termimal_skill.txt  &emsp;&emsp;&emsp;&emsp;    
->> ####    2.tmux.txt  &emsp;&emsp;&emsp;&emsp;    command
->> ####    3.vim.txt  &emsp;&emsp;&emsp;&emsp;    
+>> ####    1.auto_generate_dir_lish.sh  &emsp;&emsp;&emsp;&emsp;    自动生成该目录下的文件信息
+>> ####    2.shell_termimal_skill.txt  &emsp;&emsp;&emsp;&emsp;     shell终端常用的小技巧命令
+>> ####    3.tmux.txt  &emsp;&emsp;&emsp;&emsp;    tmux 终端复用神器, 常用操作命令
+>> ####    4.vim.txt  &emsp;&emsp;&emsp;&emsp;     vim常用骚操作
 
 
 

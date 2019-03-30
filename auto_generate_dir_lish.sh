@@ -28,7 +28,7 @@ do
           then
              echo ">> ####    $cnt.$file" >> ./README.md
           else
-             echo ">> ####    $cnt.$file '   '  `sed -n '3p' $dir/$file | awk -F '#' '{print $2}'`" >> ./README.md
+             echo ">> ####    $cnt.$file  &emsp;&emsp;&emsp;&emsp;    `sed -n '3p' $dir/$file | awk -F '#' '{print $2}'`" >> ./README.md
           fi
           let cnt++
     done
