@@ -2,7 +2,7 @@
 
 常用shell命令
 ====
-auto_update and last_modify: 2019-03-30 21:47:51
+auto_update and last_modify: 2019-03-31 08:58:21
 -------
 ## [1.auto_generate_dir_lish.sh](https://github.com/lotluck/shell/blob/master/shell_command/auto_generate_dir_lish.sh)
 >> 自动生成该目录下的文件信息

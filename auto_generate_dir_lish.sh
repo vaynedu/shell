@@ -1,13 +1,19 @@
 #! /bin/bash
 
 
+root_dir=`pwd`
 declare -A  map=([1]="一、" [2]="二、" [3]="三、" [4]="四、" [5]="五、"
                  [6]="六、" [7]="七、" [8]="八、" [9]="九、" [10]="十、")
+
+
+
 
 >./README.md
 echo -e "\n\nwelcome to file lists" >> ./README.md
 echo "====" >> ./README.md
 echo -e "auto_update and last_modify: `date "+%Y-%m-%d %H:%M:%S"`" >> ./README.md
+echo "-------" >> ./README.md
+echo "ps:详情请点击各目录查看" >> ./README.md
 echo "-------" >> ./README.md
 
 dir_list=`ls -l | grep '^d' | awk '{print $9}'`
@@ -47,4 +53,19 @@ do
     let idx++
     let cnt=1
 done
+
+
+#修改其他目录的README.md
+for dir in $dir_list
+do
+   cd $root_dir/$dir
+   sh auto_generate_dir_lish.sh 
+ 
+   echo "$root_dir/$dir finished"
+done
+
+
+
+
+
 

@@ -2,7 +2,7 @@
 
 常用shell脚本
 ====
-auto_update and last_modify: 2019-03-30 22:55:02
+auto_update and last_modify: 2019-03-31 08:58:21
 -------
 ## [1.align_filling_char.sh](https://github.com/lotluck/shell/blob/master/shell_script/align_filling_char.sh)
 >>  某个字符连续重复多少次（用在格式对齐）

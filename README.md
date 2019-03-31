@@ -2,7 +2,9 @@
 
 welcome to file lists
 ====
-auto_update and last_modify: 2019-03-30 22:44:32
+auto_update and last_modify: 2019-03-31 08:58:21
+-------
+ps:详情请点击各目录查看
 -------
 ## [一、shell_command](https://github.com/lotluck/shell/tree/master/shell_command)<br>
 >> ####    1.auto_generate_dir_lish.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   自动生成该目录下的文件信息
@@ -32,16 +34,17 @@ auto_update and last_modify: 2019-03-30 22:44:32
 
 
 ## [三、shell_script](https://github.com/lotluck/shell/tree/master/shell_script)<br>
->> ####    1.auto_generate_dir_lish.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   自动生成该目录文件名称
->> ####    2.cal_file_line_num.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   多进程统计文件行数（当文件比较大的时候，IO会成为瓶颈）
->> ####    3.cal_num.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   shell 脚本常用数学加减乘数计算， awk、expr、python
->> ####    4.combine_two_file_col.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   合并两个文件的两列，其实也可以用paste命令
->> ####    5.cycle_replace_mkfifo.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   利用循环代替shell多进程，其实原理很简单
->> ####    6.deal_tcpdump_http_header.sh&ensp;&ensp;&ensp;&ensp;&ensp;   利用tcpdump抓取http报文头部
->> ####    7.judge_odd_or_even.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   判断奇偶数字
->> ####    8.mutil_thread_model.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   shell多进程模板 及其{fd}新特性，
->> ####    9.shell_compare_bug.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;    shell脚本在 []比较的时候， 不要用 > 
->> ####    10.stat_log_file_info.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   统计文件大小及其行数
+>> ####    1.align_filling_char.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;    某个字符连续重复多少次（用在格式对齐）
+>> ####    2.auto_generate_dir_lish.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   自动生成该目录下的文件信息
+>> ####    3.cal_file_line_num.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   多进程统计文件行数（当文件比较大的时候，IO会成为瓶颈）
+>> ####    4.cal_num.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   shell 脚本常用数学加减乘数计算， awk、expr、python
+>> ####    5.combine_two_file_col.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   合并两个文件的两列，其实也可以用paste命令
+>> ####    6.cycle_replace_mkfifo.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   利用循环代替shell多进程，其实原理很简单
+>> ####    7.deal_tcpdump_http_header.sh&ensp;&ensp;&ensp;&ensp;&ensp;   利用tcpdump抓取http报文头部
+>> ####    8.judge_odd_or_even.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   判断奇偶数字
+>> ####    9.mutil_thread_model.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   shell多进程模板 及其{fd}新特性，
+>> ####    10.shell_compare_bug.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;    shell脚本在 []比较的时候， 不要用 > 
+>> ####    11.stat_log_file_info.sh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   统计文件大小及其行数
 
 
 
