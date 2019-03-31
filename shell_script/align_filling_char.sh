@@ -9,3 +9,9 @@ space_num=`expr 50 - $file_name_len`
 echo $space_num
 spaces=$(seq -s '&emsp;' $space_num | sed "s/[0-9]//g")
 echo $spaces
+
+
+#说起格式对齐，column命令就很赞
+#详细请看man column
+sed 's/#.*//' /etc/fstab | column -t
+printf "a:b:c\n1::3\n" | column  -t -s ':'
